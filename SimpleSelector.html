@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+      <meta charset="utf-8">
+	  <title>Simple Selector</title>
+	  
+	  <style type="text/css">
+	  body{
+	  background-image: url("https://static.toiimg.com/photo/msid-69441265/69441265.jpg?38381");
+	  
+	  background-repeat: no-repeat;
+	  background-position: center;   /*left top,right top,center*/
+	  background-size: cover;  /*width height,cover,contain*/
+	 /* background-attachment:fixed;*/
+	  }
+	  #firstpara{
+	  color:blue;
+	  background: red; 
+	  opacity: 1.0;
+	  }
+	  .classselector{
+	      color:red;
+		  }
+		  h2{
+		  color:green;
+		  }
+		  div .div1{
+		  color: pink;
+		  }
+		  div,p{
+		  
+		  }
+		  *{
+		  color: lightblue;
+		  }
+		  
+	  </style>
+</head>
+<body>
+
+<h1>Simple Selector</h1>
+<p id="firstpara">id</p>
+<p class="classSelector">class</p>
+<p class="classSelector">class 2</p>
+<p>tag name</p>
+<p class="classSelector">class 3</p>
+
+<h2>tag 1</h2>
+<h2>tag 2</h2>
+<h2>tag 3</h2>
+
+<div>
+<p class="div1">para 1</p>
+<p class="div1">para 2</p>
+<p>para 3</p>
+</div>
+
+<div>
+<p>para 1</p>
+<p>para 2</p>
+<p>para 3</p>
+</div>
+
+
+</body>
+</html>
