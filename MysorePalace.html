@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta>charset="utf-8">
+<title>Web Layout</title>
+
+<style type="text/css">
+body{
+background-image:url("https://upload.wikimedia.org/wikipedia/commons/thumb/a/a4/Mysore_Palace_Morning.jpg/1200px-Mysore_Palace_Morning.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+}
+
+#header{
+background-color:tomato;
+color:black;
+text-align:center;
+padding:10px;
+
+}
+#header h3{
+text-align:right;
+}
+#navbar{
+background-color:cornsilk;
+height:30px;
+}
+#navbar li{
+display:inline;
+padding:30px;
+}
+#ul img{
+width:80%;
+height:40%;
+margin:40px;
+}
+#main img{
+width:50%;
+height:40%;
+margin:30px;
+}
+#main{
+font-size:20px;
+font-family:cursive;
+color:white;
+}
+#footer{
+background-color:black;
+color:gold;
+text-align:center;
+height:20px;
+padding: 30px;
+position:sticky;
+bottom:0px;
+
+}
+/*tab device*/@media all and(min-width:300px),(max-width:500px){
+#main{
+font-size:20px;
+font-family:monospace;
+color:red;
+}
+}
+
+/*desktop device*/
+@media all and(min-width:1000px){
+#main{
+font-size:20px;
+font-family:monospace;
+color:green;
+}
+}
+/*mobile device*/
+@media all and(orientation:landscape) and (min-height:1001px){
+#main{
+font-size:20px;
+font-family:monospace;
+color:red;
+}
+}
+</style>
+</head>
+<body bgcolor="gold">
+
+<div id="header"> <img> <h1>Mysore Palace</h1> <h3>Contact:contact@mysore-palace.in</h3> </div>
+<div id="navbar">
+<ul>
+<li><a href="#">Home</a></li>
+<li><a href="">About</a></li>
+<li><a href="">Contact</a></li>
+</ul>
+</div>
+<div id="main"><img src="https://www.holidify.com/images/cmsuploads/compressed/attr_1568_20191102174918.jpg">
+The Mysore Palace, officially known as Mysuru Palace, is a historical palace and the royal residence (house) at Mysore in the Indian State of Karnataka. It is the official residence of the Wadiyar dynasty and the seat of the Kingdom of Mysore. The palace is in the centre of Mysore, and faces the Chamundi Hills eastward. Mysore is commonly described as the 'City of Palaces', and there are seven palaces including this one; however,</div>
+
+<div id="footer">Contact:contact@mysore-palace.in</div>
+</body>
+</html>
